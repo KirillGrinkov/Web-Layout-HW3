@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(./fonts/Gilroy-Bold.woff2);
+    src: url(./fonts/Gilroy-Medium.woff2);
+    src: url(./fonts/Gilroy-Regular.woff2);
+    src: url(./fonts/Gilroy-Semibold.woff2);
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: white;
+}
+
+.header{
+    /* Top menu */
+position: static;
+width: 1174px;
+height: 40px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 460;
+padding: 0px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 84px 0px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+font-family: Gilroy;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+h1 {
+    color: rgb(0, 0, 0);
+font-family: Gilroy;
+font-size: 60px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+p{
+    color: rgb(136, 136, 136);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.activeButton{
+    color: rgb(255, 255, 255);
+font-family: Gilroy;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 56px;
+box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+background: rgb(242, 88, 34);
+}
+.secondButton{
+    color: rgb(170, 170, 170);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: none;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContent__leftSide {
+    max-width: 556px;
+}
+
+.container{
+    max-width: 1174px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    gap: 14px;
+}
+
+.main{
+    margin-bottom: 100px;
+}
+
+footer{
+    margin-bottom: 100px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
